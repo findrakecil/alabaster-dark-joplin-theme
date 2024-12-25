@@ -1,0 +1,68 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+.rli-root,
+.sidebar-header-container>div>span,
+.sidebar-header-container>button>span,
+.new-todo-button>span {
+    color: #CECECE !important;
+}
+
+.rli-sideBar,
+.sidebar,
+.new-todo-button,
+.rli-editor,
+.note-title-wrapper,
+.title-input,
+.editor-toolbar,
+.tag-bar {
+    background-color: #0E1415 !important;
+}
+
+.rli-sideBar>div:last-child>div:hover,
+.rli-noteList>div:last-child>div:hover {
+    background-color: #4a88e4 !important;
+}
+
+.list-item-container.selected {
+    background-color: #4a88e4 !important;
+}
+
+.list-item-container>.list-item {
+    color: #CECECE !important;
+}
+
+.list-item-container:hover:not(.selected) {
+    background-color: #4a88e4 !important;
+    opacity: 0.4 !important;
+}
+
+.sidebar>div>button {
+    border-color: #CECECE !important;
+}
+
+.sidebar>div>button>span {
+    color: #CECECE !important;
+}
+
+.new-note-button {
+    background-color: #4a88e4 !important;
+}
+
+.new-note-button>span {
+    color: #0E1415 !important;
+}
+
+.icon-search {
+    color: #4a88e4 !important;
+}
+
+.rli-noteList,
+.rli-noteList>div>div>div,
+.note-list {
+    background-color: #323738 !important;
+}
+
+.CodeMirror {
+    background-color: #0E1415 !important;
+    color: #CECECE !important;
+}
