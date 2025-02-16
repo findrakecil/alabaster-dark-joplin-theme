@@ -1,23 +1,30 @@
 /* For styling the rendered Markdown */
 
-#joplin-container-content,
-#rendered-md,
-#tinymce {
-    background-color: #0E1415 !important;
-}
+/**
+ * =============================================================================
+ *  Alabaster Dark Joplin Theme
+ * =============================================================================
+ *
+ *  Joplin version 3.2.12
+ *
+ *  Author: Liffindra Angga Zaaldian
+ *  GitHub: https://github.com/findrakecil/alabaster-dark-joplin-theme
+ *
+ *  Credits:
+ *  - Alabaster theme for Highlight.js https://github.com/andrew--r/hljs-alabaster
+ */
 
-/* Alabaster Dark */
 .hljs {
-    display: block;
-    overflow-x: auto;
-    padding: 0.75rem;
-    background: #0E1415;
-    color: #CECECE;
-    font-size: smaller;
-    border-color: #708B8D;
-    border-radius: 0.375rem;
-    border-style: solid;
-    border-width: 2px;
+  display: block;
+  overflow-x: auto;
+  padding: 0.75rem;
+  background: #0E1415;
+  color: #CECECE;
+  font-size: smaller;
+  border-color: #708B8D;
+  border-radius: 0.375rem;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .hljs-keyword,
@@ -44,27 +51,27 @@
 .hljs-selector-pseudo,
 .hljs-template-tag,
 .hljs-template-variable {
-    color: #CECECE;
+  color: #CECECE;
 }
 
 .hljs-punctuation {
-    color: #708B8D;
+  color: #708B8D;
 }
 
 .hljs-comment {
-    color: #DFDF8E;
+  color: #DFDF8E;
 }
 
 .hljs-regexp,
 .hljs-string,
 .hljs-meta-string,
 .hljs-attr {
-    color: #95CB82;
+  color: #95CB82;
 }
 
 .hljs-number,
 .hljs-literal {
-    color: #CC8BC9;
+  color: #CC8BC9;
 }
 
 .hljs-class,
@@ -74,28 +81,28 @@
 .hljs-title.class_.inherited__,
 .hljs-title.function_,
 .hljs-title.function_.invoke__ {
-    color: #71ADE7;
+  color: #71ADE7;
 }
 
 .hljs-addition {
-    background-color: #ddffdd;
-    color: #434343;
+  background-color: #ddffdd;
+  color: #434343;
 }
 
 .hljs-deletion {
-    background-color: #ffdddd;
-    color: #434343;
+  background-color: #ffdddd;
+  color: #434343;
 }
 
 /* Fixes */
 .hljs-function .hljs-params {
-    color: #CECECE;
+  color: #CECECE;
 }
 
 .hljs-class .hljs-title {
-    color: #71ADE7;
+  color: #71ADE7;
 }
 
 .hljs-literal .hljs-keyword {
-    color: #CC8BC9;
+  color: #CC8BC9;
 }
