@@ -81,6 +81,8 @@
   border-color: #4A88E4 !important;
 }
 
+.new-note-button>span {
+  color: #FFFFFF !important;
 }
 
 .new-todo-button>span,
